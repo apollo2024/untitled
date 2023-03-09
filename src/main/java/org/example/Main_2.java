@@ -14,8 +14,8 @@ public class Main_2 {
                 break;
             }
             else{
-                if (b > 0 && a < 0){
-                    counter++;
+                if (a > 0 && b < 0){
+                    counter=counter + a;
                 }
             }
             a = b;
